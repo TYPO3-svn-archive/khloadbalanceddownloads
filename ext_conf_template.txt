@@ -1,0 +1,17 @@
+# cat=basic//130; type=boolean; label= Enable randomizing servers? : Choosing this option enables the randomized selection of the server to replace the search with. If disabled then only replace0 will be used, replace1 and replace2 will be ignored.
+random = 0
+
+# cat=basic//130; type=text; label= search: String to be replaced, e.g. fileadmin/downloads/pdf/loadbalanced/
+search =
+
+# cat=basic//130; type=text; label= replace: First Replacement (e.g. http://files.domain.com/fileadmin/downloads/pdf/loadbalanced/)
+replace0 =
+
+# cat=basic//130; type=text; label= replace1: Replacement for second server (e.g. http://files2.domain.com/fileadmin/downloads/pdf/loadbalanced/)
+replace1 =
+
+# cat=basic//130; type=text; label= replace2: Replacement for third server (e.g. http://files2.domain.com/fileadmin/downloads/pdf/loadbalanced/)
+replace2 =
+
+# cat=basic//130; type=boolean; label= Debug : Prints out debug information. Do not enable in productive environments
+debug = 0
